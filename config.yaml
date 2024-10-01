@@ -26,7 +26,7 @@ monitors:
 
   - id: labs-chargingcourses-com
     name: labs.chargingcourses.com
-    description: 'Charging Courses Labs, code anywhere and anything.'
+    description: 'Charging Courses Labs - code anywhere and anything.'
     url: 'https://labs.chargingcourses.com'
     method: GET
     expectStatus: 200
@@ -35,8 +35,8 @@ monitors:
 
   - id: auth-chargingcourses-com
     name: auth.chargingcourses.com
-    description: 'Charging Courses Authentication, central login for all of our services.'
-    url: 'https://auth.chargingcourses.com'
+    description: 'Charging Courses Authentication - central login for all of our services.'
+    url: 'https://auth.chargingcourses.com/-/health/live/'
     method: GET
     expectStatus: 200
     followRedirect: false # should fetch follow redirects, default=false
