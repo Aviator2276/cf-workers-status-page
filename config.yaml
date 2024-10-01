@@ -2,7 +2,7 @@ settings:
   title: 'Charging Courses Status Page'
   url: 'https://status.chargingcourses.com' # used for Slack messages
   logo: logo-256x256.png # image in ./public/ folder
-  daysInHistogram: 90 # number of days you want to display in histogram
+  daysInHistogram: 7 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: 'All Systems Operational'
@@ -22,7 +22,7 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
   - id: labs-chargingcourses-com
     name: labs.chargingcourses.com
