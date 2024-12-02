@@ -2,7 +2,7 @@ settings:
   title: 'Charging Courses Status Page'
   url: 'https://status.chargingcourses.com' # used for Slack messages
   logo: logo-256x256.png # image in ./public/ folder
-  daysInHistogram: 30 # number of days you want to display in histogram
+  daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: 'All Systems Operational'
